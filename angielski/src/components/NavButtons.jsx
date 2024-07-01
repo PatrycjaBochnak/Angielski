@@ -3,13 +3,14 @@ import { Link } from "react-scroll";
 
 const NavButtons = ({ source, linkName }) => (
   <Link
-    className="button"
+    className="button text-decoration-none"
+    style={{ color: "#333333" }}
     activeClass="active"
     to={source}
     spy={true}
     smooth={true}
     offset={0}
-    duration={100}
+    duration={400}
   >
     {linkName}
   </Link>

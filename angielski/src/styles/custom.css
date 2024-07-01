@@ -1,4 +1,9 @@
-.nav-link-custom {
-    text-decoration: none !important;
-    color: #333333 !important;
+.component-style { 
+    border-collapse: collapse;
+    background-color: #f2f2f2c6;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 100px;
 }

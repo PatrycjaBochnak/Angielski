@@ -1,23 +1,28 @@
-import React from 'react'
+import React from "react";
 import Container from "react-bootstrap/Container";
 
 const Offer = () => {
   return (
-    <div 
-    name="offer"
-    className="vh-100 bg-light d-flex justify-content-center align-items-center">
-      <h1 className="d-flex flex-column">Powazna oferta pieniezna</h1>
-       <Container>
-        <h1 style={{ fontSize: "30px" }}>Kafelka 1</h1>
+    <div
+      name="offer"
+      className="vh-100 bg-light d-flex flex-column justify-content-center align-items-center component-style"
+    >
+      <h1 style={{fontFamily:"Montserrat"}}>Oferta</h1>
+      <div className="d-flex flex-row">
+      <Container>
+        <h1 className="d-flex flex-column rectangle" style={{ backgroundColor: '#007bff', height: '200px', border: '2px solid #0000ff' }}>
+          Kafelka 1
+        </h1>
       </Container>
       <Container>
-        <h1 style={{ fontSize: "30px" }}>Kafelka 2</h1>
+        <h1 className="d-flex flex-column rectangle" style={{ backgroundColor: '#007bff', height: '200px', border: '2px solid #0000ff' }}>Kafelka 2</h1>
       </Container>
       <Container>
-        <h1 style={{ fontSize: "30px" }}>Kafelka 3</h1>
+        <h1 className="d-flex flex-column rectangle" style={{ backgroundColor: '#007bff', height: '200px', border: '2px solid #0000ff' }}>Kafelka 3</h1>
       </Container>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Offer
+export default Offer;

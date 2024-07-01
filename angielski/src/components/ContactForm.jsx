@@ -3,14 +3,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const ContactForm = () => {
   return (
-    <div className="container mt-5">
       <div className="row justify-content-center">
-        <div className="col-lg-6">
-          <div className="p-5 border rounded bg-light">
-            <h1 className="text-4xl font-bold text-gray-700 pb-4 border-bottom border-pink-600">
-              Contact
-            </h1>
-            <p className="text-gray-700">
+          <div className="p-3 border rounded bg-light">
+            <p className="text-gray-700 lead">
               Feel free to submit the form below or reach out via email -{" "}
               <span className="font-weight-bold">test@test.com</span>
             </p>
@@ -43,8 +38,6 @@ const ContactForm = () => {
             </button>
           </div>
         </div>
-      </div>
-    </div>
   );
 };
 
