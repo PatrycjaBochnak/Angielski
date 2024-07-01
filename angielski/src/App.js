@@ -9,17 +9,22 @@ import Welcome from "./pages/Welcome";
 
 function App() {
   return (
-    <div className="App">
-      <Layout >
-      <Welcome />
-      <About />
-      <HowITeach />
-      <Offer />
-      <Pricing />
-      <Reviews />
-      <Contact />
-      </Layout>
-    </div>
+    <>
+      <p style={{ textAlign: 'center', fontSize: '24px', marginTop: '20%' }}>Strona w budowie</p>
+      <div style={{ display: 'none' }}>
+        <div className="App">
+          <Layout>
+            <Welcome />
+            <About />
+            <HowITeach />
+            <Offer />
+            <Pricing />
+            <Reviews />
+            <Contact />
+          </Layout>
+        </div>
+      </div>
+    </>
   );
 }
 
