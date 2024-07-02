@@ -10,8 +10,8 @@ import Welcome from "./pages/Welcome";
 function App() {
   return (
     <>
-      <p style={{ textAlign: 'center', fontSize: '24px', marginTop: '20%' }}>Strona w budowie</p>
-      <div style={{ display: 'none' }}>
+      {/* <p style={{ textAlign: 'center', fontSize: '24px', marginTop: '20%' }}>Strona w budowie</p> */}
+      {/* <div style={{ display: 'none' }}> */}
         <div className="App">
           <Layout>
             <Welcome />
@@ -23,7 +23,7 @@ function App() {
             <Contact />
           </Layout>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 }

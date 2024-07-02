@@ -1,9 +1,26 @@
-.component-style { 
-    border-collapse: collapse;
-    background-color: #f2f2f2c6;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 100px;
+.component-style {
+  border-collapse: collapse;
+  background-color: #f2f2f2c6;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
 }
+.rectangle {
+    background-color: #d3d3d3; 
+    width: 100%;
+    max-width: 300px;
+    height: 300px;
+    border: 2px solid #0000ff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  .component-style {
+    padding: 20px;
+  }

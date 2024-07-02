@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 const NavButtons = ({ source, linkName }) => (
   <Link
     className="button text-decoration-none"
-    style={{ color: "#333333" }}
+    style={{ color: "#333333", fontWeight: "bold", fontFamily: "Arial" }}
     activeClass="active"
     to={source}
     spy={true}
