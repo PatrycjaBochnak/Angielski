@@ -19,13 +19,13 @@ const Contact = () => {
               <p className="fw-bold">Kontakt</p>
               <p>
                 {" "}
-                <Icons.TelephoneFill /> Telefon: 515822952
+                <Icons.TelephoneFill /> Telefon: +48 123-456-789
               </p>{" "}
               <p>
                 {" "}
-                <Icons.EnvelopeArrowUpFill /> Email: admin@admin.pl
+                <Icons.EnvelopeArrowUpFill /> Email: gdansk@insideout.pl
               </p>
-              <p>Elefoncik Sp. z.o.o. </p>{" "}
+              <p>InsideOut Sp. z.o.o.</p>{" "}
               <p>
                 {" "}
                 <Icons.GeoAltFill />

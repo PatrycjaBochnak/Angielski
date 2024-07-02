@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="d-flex justify-content-between"
       style={{fontSize: "17px"}}>
         <div className="copyright ms-5">
-          &copy; {currentYear} Szkoła językowa Elefoncik. Aleksandra Wasiluk.
+          &copy; {currentYear} InsideOut Aleksandra Wasiluk Sp. z.o.o.
           All rights reserved.
         </div>
         <div className="projekt me-5">

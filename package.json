@@ -1,5 +1,5 @@
 {
-  "homepage": "https://patrycjabochnak.github.io/insideout-english-school",
+  "homepage": " . ",
   "name": "insideout-english-school",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts start -c",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
