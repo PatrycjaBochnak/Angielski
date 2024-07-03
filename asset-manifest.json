@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/insideout-english-school/static/css/main.3830c28b.css",
+    "main.js": "/insideout-english-school/static/js/main.0987028f.js",
+    "index.html": "/insideout-english-school/index.html",
+    "main.3830c28b.css.map": "/insideout-english-school/static/css/main.3830c28b.css.map",
+    "main.0987028f.js.map": "/insideout-english-school/static/js/main.0987028f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3830c28b.css",
+    "static/js/main.0987028f.js"
+  ]
+}
