@@ -19,19 +19,18 @@ const Contact = () => {
               <p className="fw-bold">Kontakt</p>
               <p>
                 {" "}
-                <Icons.TelephoneFill /> Telefon: +48 123-456-789
+                <Icons.TelephoneFill /> +48 123-456-789
               </p>{" "}
               <p>
                 {" "}
-                <Icons.EnvelopeArrowUpFill /> Email: gdansk@insideout.pl
+                <Icons.EnvelopeArrowUpFill /> gdansk@insideout.pl
               </p>
-              <p>InsideOut Sp. z.o.o.</p>{" "}
+              <p className="fw-bold">InsideOut Sp. z.o.o.</p>{" "}
               <p>
                 {" "}
-                <Icons.GeoAltFill />
-                ul. Elefoncik 4A
+                <Icons.GeoAltFill /> ul. Wielkopolska 68 lokal U5
               </p>{" "}
-              <p>80-200 Gdańsk</p>
+              <p>80-180 Gdańsk</p>
             </div>
           </div>
           <div className="col-lg-6">
