@@ -36,7 +36,7 @@ function App() {
         />
         <p style={{ fontWeight: "bold"}}>Tworzę się dla Ciebie</p>
         <p>
-          <span style={{ fontWeight: "bold"}}>Mail: </span>biuro@szkolainsideout.pl
+          <span style={{ fontWeight: "bold"}}>E-mail: </span>biuro@szkolainsideout.pl
         </p>
         <p>
           <span style={{ fontWeight: "bold"}}>Telefon: </span>+48 727-938-163
