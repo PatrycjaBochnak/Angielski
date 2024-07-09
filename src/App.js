@@ -6,12 +6,43 @@ import Offer from "./pages/Offer";
 import Pricing from "./pages/Pricing";
 import Reviews from "./pages/Reviews";
 import Welcome from "./pages/Welcome";
+import logo from "./asstes/images/logo-pion.png";
 
 function App() {
   return (
     <>
-      <p style={{ textAlign: 'center', fontSize: '24px', marginTop: '20%' }}>Strona w budowie</p>
-      <div style={{ display: 'none' }}>
+      <div
+        className="build"
+        style={{
+          height: "100vh",
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "center",
+          alignItems: "center",
+          textAlign: "center",
+          fontSize: "24px",
+          backgroundColor: "#F5F5DC",
+          color: "purple",
+        }}
+      >
+        <img 
+          src={logo} 
+          alt="Logo" 
+          style={{
+            width: "350px",
+            height: "auto",
+            marginBottom: "50px",
+          }} 
+        />
+        <p style={{ fontWeight: "bold"}}>Tworzę się dla Ciebie</p>
+        <p>
+          <span style={{ fontWeight: "bold"}}>Mail: </span>biuro@szkolainsideout.pl
+        </p>
+        <p>
+          <span style={{ fontWeight: "bold"}}>Telefon: </span>+48 727-938-163
+        </p>
+      </div>
+      <div style={{ display: "none" }}>
         <div className="App">
           <Layout>
             <Welcome />
