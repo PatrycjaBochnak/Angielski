@@ -6,13 +6,21 @@ import NavButtons from "../components/NavButtons";
 import "../styles/custom.css";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
+import logo2 from "../asstes/images/logo-pion2.png";
 
 const Navigation = () => {
   return (
     <>
       <Navbar className="w-100 p-4 fixed-top" style={{ backgroundColor: "lightgray" }}>
         <Container className="d-flex justify-content-between align-items-center">
-        <Navbar.Brand>Elefoncik</Navbar.Brand>
+        <Navbar.Brand><img 
+          src={logo2} 
+          alt="Logo" 
+          style={{
+            width: "100px",
+            height: "auto",
+          }} 
+        /></Navbar.Brand>
           <button type="button" className="btn btn-info" style={{ fontSize: "20px" }}>
             Skontaktuj się
           </button>
@@ -20,8 +28,7 @@ const Navigation = () => {
           <Navbar.Collapse className="justify-content-end">
             <Nav style={{ gap: "2em", fontSize: "22.5px", cursor: "pointer" }}>
               <NavButtons source="start" linkName="Start" />
-              <NavButtons source="about" linkName="O mnie" />
-              <NavButtons source="how-i-teach" linkName="Jak uczę?" />
+              <NavButtons source="how-i-teach" linkName="Jak uczymy?" />
               <NavButtons source="offer" linkName="Oferta" />
               <NavButtons source="pricing" linkName="Cennik" />
               <NavButtons source="reviews" linkName="Opinie" />
@@ -38,7 +45,7 @@ const Navigation = () => {
                 className="list-group-item d-flex p-3 justify-content-between align-items-center text-dark mb-2"
                 href="https://www.linkedin.com/in/patrycja-bochnak-779a931a7/"
               >
-                <span style={{ marginRight: "1rem" }}>Facebook</span>{" "}
+                <span style={{ marginRight: "rem" }}>Facebook</span>{" "}
                 <FaFacebook size={30} />
               </a>
             </li>

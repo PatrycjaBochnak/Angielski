@@ -1,5 +1,4 @@
 import { Layout } from "./layout/Layout";
-import About from "./pages/About";
 import Contact from "./pages/Contact";
 import HowITeach from "./pages/HowITeach";
 import Offer from "./pages/Offer";
@@ -11,7 +10,7 @@ import logo from "./asstes/images/logo-pion.png";
 function App() {
   return (
     <>
-      <div
+      {/* <div
         className="build"
         style={{
           height: "100vh",
@@ -42,11 +41,10 @@ function App() {
           <span style={{ fontWeight: "bold"}}>Telefon: </span>+48 727-938-163
         </p>
       </div>
-      <div style={{ display: "none" }}>
+      <div style={{ display: "none" }}> */}
         <div className="App">
           <Layout>
             <Welcome />
-            <About />
             <HowITeach />
             <Offer />
             <Pricing />
@@ -54,7 +52,7 @@ function App() {
             <Contact />
           </Layout>
         </div>
-      </div>
+      {/* </div> */}
     </>
   );
 }

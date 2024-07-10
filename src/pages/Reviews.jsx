@@ -10,7 +10,7 @@ const Reviews = () => {
         <div className="row">
           <div className="col-lg-8 mx-auto p-4">
             <h1 className="mb-4" style={{ fontFamily: "Montserrat" }}>
-              Tak mówią o mnie inni
+              Tak o nas mówią
             </h1>
             <p className="lead">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

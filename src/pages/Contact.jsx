@@ -14,16 +14,16 @@ const Contact = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6 lead">
             Zostaw wiadomość wypełniając formularz kontaktowy po prawej stronie
-            lub skontaktuj się ze mną w inny wygodny dla Ciebie sposób.
+            lub wybierz formę kontaktu z dostępnych poniżej.
             <div className="d-flex flex-column mt-5">
               <p className="fw-bold">Kontakt</p>
               <p>
                 {" "}
-                <Icons.TelephoneFill /> +48 123-456-789
+                <Icons.TelephoneFill /> +48 727-938-163
               </p>{" "}
               <p>
                 {" "}
-                <Icons.EnvelopeArrowUpFill /> gdansk@insideout.pl
+                <Icons.EnvelopeArrowUpFill /> biuro@insideout.pl
               </p>
               <p className="fw-bold">InsideOut Sp. z.o.o.</p>{" "}
               <p>
