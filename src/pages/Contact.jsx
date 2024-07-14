@@ -12,10 +12,11 @@ const Contact = () => {
       <h1 style={{ fontFamily: "Montserrat" }}>Kontakt</h1>
       <div className="container mt-5">
         <div className="row justify-content-center">
-          <div className="col-lg-6 lead">
-            Zostaw wiadomość wypełniając formularz kontaktowy po prawej stronie
-            lub wybierz formę kontaktu z dostępnych poniżej.
-            <div className="d-flex flex-column mt-5">
+          <div className="col-lg-6 lead text-gray-700">
+          Wypełnij formularz kontaktowy by wysłać bezpośrednio do mnie wiadomość
+          lub skontaktuj się ze mną za pomocą maila - {""}
+          <span className="font-weight-bold">biuro@szkolainsideout.pl</span>
+            <div className="d-flex flex-column mt-3">
               <p className="fw-bold">Kontakt</p>
               <p>
                 {" "}

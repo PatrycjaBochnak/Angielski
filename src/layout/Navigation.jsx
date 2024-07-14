@@ -6,7 +6,7 @@ import NavButtons from "../components/NavButtons";
 import "../styles/custom.css";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
-import logo2 from "../asstes/images/logo-pion2.png";
+import logo2 from "../asstes/images/logo-poziom.png";
 
 const Navigation = () => {
   return (
@@ -17,7 +17,7 @@ const Navigation = () => {
           src={logo2} 
           alt="Logo" 
           style={{
-            width: "100px",
+            width: "200px",
             height: "auto",
           }} 
         /></Navbar.Brand>
@@ -28,6 +28,7 @@ const Navigation = () => {
           <Navbar.Collapse className="justify-content-end">
             <Nav style={{ gap: "2em", fontSize: "22.5px", cursor: "pointer" }}>
               <NavButtons source="start" linkName="Start" />
+              <NavButtons source="about" linkName="O szkole" />
               <NavButtons source="how-i-teach" linkName="Jak uczymy?" />
               <NavButtons source="offer" linkName="Oferta" />
               <NavButtons source="pricing" linkName="Cennik" />
@@ -38,38 +39,41 @@ const Navigation = () => {
         </Container>
       </Navbar>
       <Container className="mt-5">
-        <div className="d-flex flex-col list-group translate-middle-y start-0 top-50 p-3 position-fixed">
-          <ul className="list-unstyled">
-            <li>
-              <a
-                className="list-group-item d-flex p-3 justify-content-between align-items-center text-dark mb-2"
-                href="https://www.linkedin.com/in/patrycja-bochnak-779a931a7/"
-              >
-                <span style={{ marginRight: "rem" }}>Facebook</span>{" "}
-                <FaFacebook size={30} />
-              </a>
-            </li>
-            <li>
-              <a
-                className="list-group-item d-flex p-3 justify-content-between align-items-center text-dark mb-2"
-                href="https://github.com/PatrycjaBochnak"
-              >
-                <span style={{ marginRight: "1rem" }}>Instagram </span>{" "}
-                <FaInstagram size={30} />
-              </a>
-            </li>
-            <li>
-              <a
-                className="list-group-item d-flex p-3 justify-content-between align-items-center text-dark mb-2"
-                href="mailto:patrycjabochnak@protonmail.com"
-              >
-                <span style={{ marginRight: "1rem" }}>Email</span>{" "}
-                <HiOutlineMail size={30} />
-              </a>
-            </li>
-          </ul>
-        </div>
-      </Container>
+      <div className="d-flex flex-column list-group translate-middle-y start-0 top-50 p-3 position-fixed">
+        <ul className="list-unstyled">
+          <li>
+            <a
+              className="list-group-item d-flex my-3 justify-content-between align-items-center text-dark mb-2 social-link"
+              href="https://www.facebook.com/profile.php?id=61562394448294"
+              target="_blank"
+            >
+              <span className="link-text">Facebook</span>
+              <FaFacebook size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="list-group-item d-flex my-3 justify-content-between align-items-center text-dark mb-2 social-link"
+              href="https://www.instagram.com/insideout.englishacademy/"
+              target="_blank"
+            >
+              <span className="link-text">Instagram</span>
+              <FaInstagram size={30} />
+            </a>
+          </li>
+          <li>
+            <a
+              className="list-group-item d-flex my-3 justify-content-between align-items-center text-dark mb-2 social-link"
+              href="mailto:biuro@szkolainsideout.pl"
+              target="_blank"
+            >
+              <span className="link-text">Email</span>
+              <HiOutlineMail size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </Container>
     </>
   );
 };

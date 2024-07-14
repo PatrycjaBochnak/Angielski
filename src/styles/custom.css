@@ -7,20 +7,91 @@
   margin-right: 10%;
   margin-bottom: 100px;
 }
+
+.component-style {
+  padding: 20px;
+}
+
 .rectangle {
-    background-color: #d3d3d3; 
-    width: 100%;
-    max-width: 300px;
-    height: 300px;
-    border: 2px solid #0000ff; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  
-  .component-style {
-    padding: 20px;
-  }
+  background-color: #d3d3d3;
+  width: 100%;
+  max-width: 300px;
+  height: 300px;
+  border: 2px solid #0000ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+  background-color: #f0f0f0;
+  text-align: center;
+  cursor: pointer;
+}
+
+.default-text,
+.hover-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transition: opacity 0.3s;
+}
+
+.default-text {
+  opacity: 1;
+}
+
+.hover-text {
+  opacity: 0;
+}
+
+.rectangle:hover .default-text {
+  opacity: 0;
+}
+
+.rectangle:hover .hover-text {
+  opacity: 1;
+}
+.social-link {
+
+  width: 60px;
+  height: auto;
+  overflow: hidden;
+  transition: width 0.3s ease;
+}
+
+.social-link .link-text {
+  position: absolute;
+  left: 100%;
+  white-space: nowrap;
+  opacity: 0;
+  transition: left 0.3s ease, opacity 0.3s ease;
+}
+
+.social-link:hover {
+  width: 200px;
+}
+
+.social-link:hover .link-text {
+  left: 100px;
+  opacity: 1;
+}
+
+.social-link .fa-facebook,
+.social-link .fa-instagram,
+.social-link .hi-outline-mail {
+  transition: margin-right 0.3s ease;
+}
+.social-icon {
+  flex-shrink: 0;
+  margin-right: 0;
+}
+.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0.5rem;
+}

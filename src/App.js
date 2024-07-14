@@ -6,6 +6,7 @@ import Pricing from "./pages/Pricing";
 import Reviews from "./pages/Reviews";
 import Welcome from "./pages/Welcome";
 import logo from "./asstes/images/logo-pion.png";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -21,7 +22,7 @@ function App() {
           textAlign: "center",
           fontSize: "24px",
           backgroundColor: "#F5F5DC",
-          color: "purple",
+          color: "#572B86",
         }}
       >
         <img 
@@ -40,11 +41,12 @@ function App() {
         <p>
           <span style={{ fontWeight: "bold"}}>Telefon: </span>+48 727-938-163
         </p>
-      </div>
-      <div style={{ display: "none" }}> */}
+      </div> */}
+      {/* {/* <div style={{ display: "none" }}> */}
         <div className="App">
           <Layout>
             <Welcome />
+            <About />
             <HowITeach />
             <Offer />
             <Pricing />
