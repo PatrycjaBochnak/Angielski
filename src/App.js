@@ -21,7 +21,7 @@ function App() {
           alignItems: "center",
           textAlign: "center",
           fontSize: "24px",
-          backgroundColor: "#F5F5DC",
+          backgroundColor: "#E4D8D4",
           color: "#572B86",
         }}
       >
@@ -41,8 +41,8 @@ function App() {
         <p>
           <span style={{ fontWeight: "bold"}}>Telefon: </span>+48 727-938-163
         </p>
-      </div> */}
-      {/* {/* <div style={{ display: "none" }}> */}
+      </div>  */}
+       {/* <div style={{ display: "none" }}> */}
         <div className="App">
           <Layout>
             <Welcome />
