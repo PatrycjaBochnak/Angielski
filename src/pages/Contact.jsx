@@ -7,35 +7,45 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="vh-98 bg-light d-flex flex-column justify-content-center align-items-center component-style"
+      className="bg-light d-flex flex-column justify-content-center align-items-center component-style" 
+      style={{ minHeight: "75vh" }} 
     >
-      <h1 style={{ fontFamily: "Montserrat" }}>Kontakt</h1>
+      <div className="text-center">
+        <h1 style={{ fontFamily: "Montserrat" }}>Kontakt</h1>
+        <p className="lead text-gray-700">
+          Wypełnij formularz kontaktowy by wysłać bezpośrednio do mnie wiadomość lub skontaktuj się ze mną za pomocą maila - {" "}
+          <span className="font-weight-bold">biuro@szkolainsideout.pl</span>
+        </p>
+      </div>
       <div className="container mt-5">
         <div className="row justify-content-center">
-          <div className="col-lg-6 lead text-gray-700">
-          Wypełnij formularz kontaktowy by wysłać bezpośrednio do mnie wiadomość
-          lub skontaktuj się ze mną za pomocą maila - {""}
-          <span className="font-weight-bold">biuro@szkolainsideout.pl</span>
-            <div className="d-flex flex-column mt-3">
+          <div className="col-lg-6">
+            <div className="d-flex flex-column">
               <p className="fw-bold">Kontakt</p>
               <p>
                 {" "}
                 <Icons.TelephoneFill /> +48 727-938-163
-              </p>{" "}
+              </p>
               <p>
                 {" "}
                 <Icons.EnvelopeArrowUpFill /> biuro@insideout.pl
               </p>
-              <p className="fw-bold">InsideOut Sp. z.o.o.</p>{" "}
+              <p className="fw-bold">InsideOut Sp. z o.o.</p>
               <p>
                 {" "}
                 <Icons.GeoAltFill /> ul. Wielkopolska 68 lokal U5
-              </p>{" "}
+              </p>
               <p>80-180 Gdańsk</p>
             </div>
           </div>
-          <div className="col-lg-6">
-            <ContactForm />
+          <div className="col-lg-6 mt-4 mt-lg-0">
+            <form
+              method="POST"
+              action="https://getform.io/f/agdylwrb"
+              className="max-w-[600px] w-full"
+            >
+              <ContactForm />
+            </form>
           </div>
         </div>
       </div>

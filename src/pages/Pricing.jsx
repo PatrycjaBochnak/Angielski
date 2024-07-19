@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-const Offer = () => {
+const Pricing = () => {
   return (
     <div
       name="pricing"
@@ -13,19 +13,17 @@ const Offer = () => {
       <Container>
         <Row className="justify-content-center">
           <Col md={4} className="mb-2 px-2 d-flex justify-content-center">
-            <div className="rectangle">
-              {" "}
+            <div className="pricing-rectangle">
               <span className="default-text">
                 KURS DLA DZIECI W WIEKU SZKOLNYM
               </span>
               <span className="hover-text">
-                6-12 lat: 2x60min/tydzień (poziomy od A0 do A2){" "}
+                6-12 lat: 2x60min/tydzień (poziomy od A0 do A2)
               </span>
             </div>
           </Col>
           <Col md={4} className="mb-4 d-flex justify-content-center">
-            <div className="rectangle">
-              {" "}
+            <div className="pricing-rectangle">
               <span className="default-text">
                 KURSY DLA MLODZIEZY I DOROSŁYCH
               </span>
@@ -34,8 +32,8 @@ const Offer = () => {
               </span>
             </div>
           </Col>
-          <Col md={4} className="mb-4 d-flex justify-content-center">
-            <div className="rectangle">
+          <Col md={10} className="mb-4 d-flex justify-content-center">
+            <div className="pricing-rectangle">
               <span className="default-text">KURSY SPECJALISTYCZNE</span>
               <span className="hover-text">
                 Przygotowanie do egzaminu ósmoklasisty: 2x60min/tydzień (poziom
@@ -53,4 +51,4 @@ const Offer = () => {
   );
 };
 
-export default Offer;
+export default Pricing;
