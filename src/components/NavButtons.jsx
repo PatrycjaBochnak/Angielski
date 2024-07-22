@@ -9,7 +9,7 @@ const NavButtons = ({ source, linkName }) => (
     to={source}
     spy={true}
     smooth={true}
-    offset={0}
+    offset={-111}
     duration={400}
   >
     {linkName}
