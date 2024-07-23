@@ -7,14 +7,14 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="bg-light d-flex flex-column justify-content-center align-items-center component-style" 
+      className="d-flex flex-column justify-content-center align-items-center component-style" 
       style={{ minHeight: "80vh", marginTop: "115px" }} 
     >
       <div className="text-center">
-        <h1 style={{ fontFamily: "Montserrat" }}>Kontakt</h1>
-        <p className="lead text-gray-700" style={{width: "700px"}}>
+        <h1 className="heading-custom mb-5">Kontakt</h1>
+        <p className="lead text-gray-700 mb-3" style={{width: "700px"}}>
           Wypełnij formularz kontaktowy by wysłać bezpośrednio do mnie wiadomość lub skontaktuj się ze mną za pomocą maila - {" "}
-          <span className="font-weight-bold">biuro@szkolainsideout.pl</span>
+          <span className="font-weight-bold" style={{fontWeight: "bold"}}>biuro@szkolainsideout.pl</span>
         </p>
       </div>
       <div className="container mt-5">

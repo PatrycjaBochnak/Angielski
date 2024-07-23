@@ -8,16 +8,17 @@ const HowITeach = () => {
   return (
     <div
       name="how-i-teach"
-      className="vh-100 bg-light d-flex flex-column justify-content-center align-items-center component-style"
+      className="d-flex flex-column justify-content-center align-items-center component-style"
+      style={{height: "87vh"}}
     >
       <Container className="text-start">
         <Row className="align-items-center">
           <Col md={6}>
-            <h1 style={{ fontFamily: "Montserrat", marginBottom: "1.5rem" }}>
+            <h1 className="heading-custom">
               Jak uczymy?
             </h1>
             <p className="lead">
-              InsideOut oferuje zajęcia grupowe oraz indywidualne dostosowane do
+              <span style={{fontWeight: "bold"}}>InsideOut oferuje </span>zajęcia grupowe oraz indywidualne dostosowane do
               potrzeb oraz poziomu zaawansowania każdego ucznia. Bazuje na metodzie
               TPR (Total Physical Response), która łączy ruch fizyczny z nauką
               języka, co przyspiesza i ułatwia proces przyswajania nowych słówek i
@@ -27,7 +28,7 @@ const HowITeach = () => {
               podczas zajęć odbywa się w języku angielskim.
             </p>
             <p className="lead">
-              InsideOut kładzie duży nacisk na komfort uczniów, dlatego nauczanie
+            <span style={{fontWeight: "bold"}}>InsideOut kładzie</span> duży nacisk na komfort uczniów, dlatego nauczanie
               odbywa się bez presji i pośpiechu, a program nauczania jest
               dostosowany do możliwości i potrzeb uczniów. Szkoła dba o to, aby
               każdy czuł się swobodnie i mógł rozwijać swoje umiejętności w
@@ -37,7 +38,7 @@ const HowITeach = () => {
           <Col md={6} className="d-flex justify-content-center">
             <img
               src={image3}
-              alt="image"
+              alt="image3"
               className="image-welcome"
               style={{ width: "100%", maxWidth: "450px", borderRadius: "10px" }}
             />

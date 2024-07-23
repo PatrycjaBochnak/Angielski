@@ -4,12 +4,13 @@ const Reviews = () => {
   return (
     <div
       name="reviews"
-      className="vh-100 bg-light d-flex flex-column justify-content-center align-items-center component-style"
+      className="d-flex flex-column justify-content-center align-items-center component-style"
+      style={{ height: "87vh" }}
     >
       <div className="container text-center">
         <div className="row">
           <div className="col-lg-8 mx-auto p-4">
-            <h1 className="mb-4" style={{ fontFamily: "Montserrat" }}>
+            <h1 className="heading-custom">
               Tak o nas mówią
             </h1>
             <p className="lead">

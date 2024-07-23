@@ -7,9 +7,10 @@ const Offer = () => {
   return (
     <div
       name="offer"
-      className="vh-100 bg-light d-flex flex-column justify-content-center align-items-center component-style"
+      className="d-flex flex-column justify-content-center align-items-center component-style"
+      style={{ height: "87vh" }}
     >
-      <h1 style={{ fontFamily: "Montserrat" }}>Oferta</h1>
+      <h1 className="heading-custom">Oferta</h1>
       <Container>
         <Row className="justify-content-center">
           <Col md={4} className="mb-4 d-flex justify-content-center">
