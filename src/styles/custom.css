@@ -12,7 +12,7 @@
   background-color: #d3d3d3;
   width: 100%;
   max-width: 300px;
-  height: 300px;
+  height: 500px;
   border: 2px solid #0000ff;
   display: flex;
   justify-content: center;
@@ -146,6 +146,7 @@
 .default-text,
 .hover-text {
   position: absolute;
+  font-size: 15px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
