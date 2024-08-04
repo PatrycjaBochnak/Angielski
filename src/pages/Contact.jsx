@@ -2,40 +2,49 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import ContactForm from "../components/ContactForm";
 import * as Icons from "react-bootstrap-icons";
+import Footer from "../layout/Footer";
 
 const Contact = () => {
   return (
+    <div name="contact"
+    style={{ minHeight: "85vh", marginTop: "115px" }}>
     <div
-      name="contact"
-      className="d-flex flex-column justify-content-center align-items-center component-style" 
-      style={{ minHeight: "80vh", marginTop: "115px" }} 
+      className="d-flex flex-column justify-content-center align-items-center component-style"
+      style={{ minHeight: "80vh", marginBottom: "0px" }}
     >
       <div className="text-center">
         <h1 className="heading-custom mb-5">Kontakt</h1>
-        <p className="lead text-gray-700 mb-3" style={{width: "700px"}}>
-          Wypełnij formularz kontaktowy by wysłać bezpośrednio do mnie wiadomość lub skontaktuj się ze mną za pomocą maila - {" "}
-          <span className="font-weight-bold" style={{fontWeight: "bold"}}>biuro@szkolainsideout.pl</span>
+        <p className="lead text-gray-700 mb-3" style={{ width: "700px" }}>
+          Wypełnij formularz kontaktowy by wysłać bezpośrednio do mnie wiadomość
+          lub skontaktuj się ze mną za pomocą maila -{" "}
+          <span className="font-weight-bold" style={{ fontWeight: "bold" }}>
+            biuro@szkolainsideout.pl
+          </span>
         </p>
       </div>
       <div className="container mt-5">
         <div className="row justify-content-center">
           <div className="col-lg-3">
-            <div className="d-flex flex-column" style={{fontSize: "20px"}}>
-              <p className="fw-bold" style={{fontSize: "30px"}}>Kontakt</p>
+            <div className="d-flex flex-column" style={{ fontSize: "20px" }}>
+              <p className="fw-bold" style={{ fontSize: "30px" }}>
+                Kontakt
+              </p>
               <p>
                 {" "}
                 <Icons.TelephoneFill /> +48 727-938-163
               </p>
               <p>
                 {" "}
-                <Icons.EnvelopeArrowUpFill /> biuro@insideout.pl
+                <Icons.EnvelopeArrowUpFill /> biuro@szkolainsideout.pl
               </p>
-              <p className="fw-bold" style={{fontSize: "30px"}}>InsideOut Sp. z o.o.</p>
+              <p className="fw-bold" style={{ fontSize: "30px" }}>
+                InsideOut English Academy
+              </p>
               <p>
                 {" "}
                 <Icons.GeoAltFill /> ul. Wielkopolska 68 lokal U5
               </p>
-              <p style={{marginLeft: "25px"}}>80-180 Gdańsk</p>
+              <p style={{ marginLeft: "25px" }}>80-180 Gdańsk</p>
             </div>
           </div>
           <div className="col-lg-6 mt-4 mt-lg-0">
@@ -49,6 +58,8 @@ const Contact = () => {
           </div>
         </div>
       </div>
+    </div>
+    <Footer /> 
     </div>
   );
 };

@@ -37,7 +37,7 @@ const About = () => {
               szkolnym jak i osobistym.
             </p>
             <p className="lead text-end" style={{ textAlign: "right" }}>
-            <span style={{fontWeight: "bold"}}>Szkoła zlokalizowana przy ulicy Wielkopolskiej 68 w Gdańsku</span>
+            <span style={{fontWeight: "bold"}}>Szkoła zlokalizowana przy ulicy Wielkopolskiej 68 w Gdańsku </span>
               zapewnia indywidualne podejście do ucznia oraz kameralną atmosferę
               sprzyjającą przyswajaniu wiedzy. Duża odpowiedzialność w
               kontekście nauki stoi zarówno po stronie szkoły jak i rodziców,

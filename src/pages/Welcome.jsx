@@ -17,24 +17,30 @@ const Welcome = () => {
           <Col md={6}>
             <h1 className="heading-custom">O mnie</h1>
             <p className="lead">
-            <span style={{fontWeight: "bold"}}>Mam na imię Aleksandra i jestem absolwentką Filologii Angielskiej
-              z tytułem magistra. </span>Nauczać zaczęłam już podczas studiów
-              licencjackich. Wtedy nie zdawałam sobie sprawy, że będę się
-              spełniać w tym zawodzie i doskonalić.
+              <span style={{ fontWeight: "bold" }}>
+                Mam na imię Aleksandra i jestem absolwentką Filologii
+                Angielskiej z tytułem magistra.{" "}
+              </span>
+              Nauczać zaczęłam już podczas studiów licencjackich. Wtedy nie
+              zdawałam sobie sprawy, że będę spełniać się w tym zawodzie i
+              doskonalić.
             </p>
             <p className="lead">
-            <span style={{fontWeight: "bold"}}> Najwięcej doświadczenia zdobyłam pracując w renomowanej szkole
-              językowej w Lublinie, gdzie pod moimi skrzydłami jednocześnie
-              uczyło się 90 dzieci. </span>Ponadto przez cały ten czas udzielałam
-              korepetycji osobom w różnym wieku, od dzieci po dorosłych. To
-              wtedy wypracowałam takie metody, które pozwoliły mi dotrzeć do
-              każdego z uczniów. Osiągali oni wyniki maksymalne na miarę swoich
-              możliwości. W tym roku mija 6 lat odkąd poprowadziłam pierwsze
-              zajęcia.
+              <span style={{ fontWeight: "bold" }}>
+                {" "}
+                Najwięcej doświadczenia zdobyłam pracując w renomowanej szkole
+                językowej w Lublinie, gdzie pod moimi skrzydłami jednocześnie
+                uczyło się 90 dzieci.{" "}
+              </span>
+              Ponadto przez cały ten czas udzielałam korepetycji osobom w różnym
+              wieku, od dzieci po dorosłych. To wtedy wypracowałam takie metody,
+              które pozwoliły mi dotrzeć do każdego z uczniów. Osiągali oni
+              wyniki maksymalne na miarę swoich możliwości. W tym roku mija 6
+              lat odkąd poprowadziłam pierwsze zajęcia.
             </p>
             <div className="py-4 d-flex flex-column flex-md-row welcome-custom">
               <div className="welcome-custom-btn mb-3 mb-md-0">
-                <NavButtons source="offer" linkName="Sprawdź ofertę"/>
+                <NavButtons source="offer" linkName="Sprawdź ofertę" />
               </div>
               <div className="welcome-custom-btn mb-3 mb-md-0">
                 <NavButtons source="pricing" linkName="Sprawdź cennik" />

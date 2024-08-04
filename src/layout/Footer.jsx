@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="d-flex justify-content-between"
       style={{fontSize: "17px"}}>
         <div className="copyright ms-5">
-          &copy; {currentYear} InsideOut Aleksandra Wasiluk Sp. z.o.o.
+          &copy; {currentYear} InsideOut English Academy
           All rights reserved.
         </div>
         <div className="projekt me-5">

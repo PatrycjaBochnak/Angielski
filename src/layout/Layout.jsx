@@ -7,8 +7,6 @@ export const Layout = ({ children }) => {
       <Navigation />
 
       {children}
-
-      <Footer />
     </>
   );
 };

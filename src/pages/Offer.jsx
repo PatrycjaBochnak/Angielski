@@ -20,14 +20,13 @@ const Offer = () => {
             </span>{" "}
             po to, aby każdy zanurzył się w nim jak tylko jest to możliwe ☺
             Dzieci powyżej 6 lat,
-            <span style={{ fontWeight: "bold" }}>
-              młodzież oraz dorośli przypisywani są do grup poziomowych
+            <span style={{ fontWeight: "bold" }}> młodzież oraz dorośli przypisywani są do grup poziomowych
             </span>{" "}
             na podstawie rozmowy z lektorem i/lub krótkiego testu pisemnego.
           </p>
           {[
             {
-              title: "KURSY DLA DZIECI W WIEKU PONIŻEJ 6 LAT",
+              title: "KURS DLA DZIECI W WIEKU PONIŻEJ 6 LAT",
               text: "Jest to kurs dla maluchów, który opiera się na zabawie, reagowaniu, powtarzaniu i naśladowaniu, a więc za pomocą metody TPR. Wszystko to odbywa się w przyjaznej atmosferze, zwykle w akompaniamencie prostych piosenek i rymowanek w języku angielskim. Stopniowo wprowadzane jest czytanie globalne.",
             },
             {
@@ -44,10 +43,14 @@ const Offer = () => {
             },
             {
               title: "KURS DLA DOROSŁYCH",
-              text: "Zajęcia te mają podobną strukturę jak te dla młodzieży, ale z planem nauczania zadedykowanym osobom dorosłym. Pojawiają się tematy „na czasie”, co sprawia, że każdy kursant może się swobodnie wypowiedzieć, a w konsekwencji bariera językowa szybko idzie w zapomnienie. *nie dotyczy zajęć konwersacyjnych.",
+              text: "Zajęcia te mają podobną strukturę jak te dla młodzieży, ale z planem nauczania zadedykowanym osobom dorosłym. Pojawiają się tematy „na czasie”, co sprawia, że każdy kursant może się swobodnie wypowiedzieć, a w konsekwencji bariera językowa szybko idzie w zapomnienie.",
             },
           ].map((course, index) => (
-            <Col key={index} md={4} className="mb-4 d-flex justify-content-center">
+            <Col
+              key={index}
+              md={4}
+              className="mb-4 d-flex justify-content-center"
+            >
               <div className="rectangle">
                 <span className="default-text">{course.title}</span>
                 <span className="hover-text">{course.text}</span>
