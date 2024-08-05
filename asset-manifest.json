@@ -1,15 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.bc7dbcbc.css",
-    "main.js": "/static/js/main.6b9074d2.js",
+    "main.css": "/static/css/main.39744488.css",
+    "main.js": "/static/js/main.1cb612c1.js",
+    "static/media/image1.jpeg": "/static/media/image1.4cbf5d17af9d43cf1205.jpeg",
+    "static/media/image3.jpeg": "/static/media/image3.932055289a18e466cb6b.jpeg",
+    "static/media/image0.jpeg": "/static/media/image0.902255b11ff08571f0ae.jpeg",
+    "static/media/mlodziez.jpg": "/static/media/mlodziez.747f4e601f9a6e434c13.jpg",
+    "static/media/dzieciWiekSzkolny.jpg": "/static/media/dzieciWiekSzkolny.48503e5776e476ab5d7c.jpg",
+    "static/media/dzieciPonizej6Lat.jpg": "/static/media/dzieciPonizej6Lat.f50f8184469124513ef8.jpg",
+    "static/media/dorosli.jpg": "/static/media/dorosli.409af0a2f39dbe8adb8b.jpg",
+    "static/media/egzaminy.jpg": "/static/media/egzaminy.4001eb17dce80f4b0cfa.jpg",
     "static/media/logo-pion.png": "/static/media/logo-pion.6b71ba8aed3801ffeb61.png",
     "static/media/logo-poziom.png": "/static/media/logo-poziom.6b71ba8aed3801ffeb61.png",
     "index.html": "/index.html",
-    "main.bc7dbcbc.css.map": "/static/css/main.bc7dbcbc.css.map",
-    "main.6b9074d2.js.map": "/static/js/main.6b9074d2.js.map"
+    "main.39744488.css.map": "/static/css/main.39744488.css.map",
+    "main.1cb612c1.js.map": "/static/js/main.1cb612c1.js.map"
   },
   "entrypoints": [
-    "static/css/main.bc7dbcbc.css",
-    "static/js/main.6b9074d2.js"
+    "static/css/main.39744488.css",
+    "static/js/main.1cb612c1.js"
   ]
 }
