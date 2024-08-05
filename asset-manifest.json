@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0cef9a1a.css",
-    "main.js": "/static/js/main.1d791db0.js",
+    "main.js": "/static/js/main.ad62182e.js",
     "static/media/image1.jpeg": "/static/media/image1.4cbf5d17af9d43cf1205.jpeg",
     "static/media/image3.jpeg": "/static/media/image3.932055289a18e466cb6b.jpeg",
     "static/media/image0.jpeg": "/static/media/image0.902255b11ff08571f0ae.jpeg",
@@ -14,10 +14,10 @@
     "static/media/logo-poziom.png": "/static/media/logo-poziom.6b71ba8aed3801ffeb61.png",
     "index.html": "/index.html",
     "main.0cef9a1a.css.map": "/static/css/main.0cef9a1a.css.map",
-    "main.1d791db0.js.map": "/static/js/main.1d791db0.js.map"
+    "main.ad62182e.js.map": "/static/js/main.ad62182e.js.map"
   },
   "entrypoints": [
     "static/css/main.0cef9a1a.css",
-    "static/js/main.1d791db0.js"
+    "static/js/main.ad62182e.js"
   ]
 }
