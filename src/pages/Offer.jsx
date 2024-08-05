@@ -41,7 +41,7 @@ const Offer = () => {
     <div
       name="offer"
       className="d-flex flex-column justify-content-center align-items-center component-style"
-      style={{ height: "170vh" }}
+      style={{ height: "180vh" }}
     >
       <h1 className="heading-custom mb-5 mt-5">Oferta</h1>
       <Container>

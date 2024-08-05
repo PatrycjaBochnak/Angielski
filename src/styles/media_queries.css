@@ -1,0 +1,172 @@
+/* Media Queries dla ekranów o maksymalnej szerokości 767px */
+@media (max-width: 767px) {
+  .text-end {
+    text-align: center !important;
+  }
+
+  .rectangle img {
+    max-width: 100%;
+  }
+
+  .lead {
+    font-size: 1rem !important; /* Zmieniono z 0.9em na 1rem dla spójności */
+    text-align: center !important;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  .image-welcome {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 10px;
+  }
+
+  .heading-custom {
+    font-size: 1.75rem !important; /* Zmieniono z 1.5em na 1.75rem */
+    text-align: center !important;
+  }
+
+  .welcome-custom-btn {
+    width: 100% !important;
+    text-align: center !important;
+  }
+
+  .welcome-custom-btn a {
+    width: 100% !important;
+    margin: 5px 0 !important;
+  }
+
+  .justify-content-center {
+    justify-content: center !important;
+  }
+
+  .d-flex {
+    flex-direction: column !important;
+  }
+
+  .text-center {
+    text-align: center !important;
+  }
+
+  .table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+
+  .table thead {
+    display: none;
+  }
+
+  .table tr {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  .table td {
+    display: block;
+    text-align: right;
+    position: relative;
+    padding-left: 50%;
+    margin-bottom: 10px;
+    border: 1px solid #dee2e6;
+  }
+
+  .table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    padding-left: 10px;
+    font-weight: bold;
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6;
+    white-space: nowrap;
+  }
+
+  .contact-info p {
+    font-size: 1rem;
+  }
+
+  .contact-info {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .col-lg-3,
+  .col-lg-6 {
+    margin-bottom: 1rem;
+  }
+
+  .hover-text {
+    font-size: 15px;
+  }
+  .rectangle .title-text {
+    font-size: 25px;
+  }
+}
+
+/* Media Queries dla ekranów o maksymalnej szerokości 767.98px (jeśli konieczne) */
+@media (max-width: 767.98px) {
+  .App {
+    height: auto !important;
+    width: 100%;
+  }
+
+  .component-style {
+    height: auto !important;
+  }
+
+  .heading-custom {
+    font-size: 1.75rem;
+    text-align: center !important;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .text-gray-700 {
+    font-size: 0.875rem;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .col-lg-8 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .heading-custom {
+    text-align: center !important;
+    font-size: 2em !important;
+  }
+
+  .lead {
+    font-size: 1.1em;
+  }
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .copyright,
+  .projekt {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .footer {
+    padding: 1rem;
+  }
+}

@@ -7,6 +7,9 @@ import Reviews from "./pages/Reviews";
 import Welcome from "./pages/Welcome";
 import logo from "./asstes/images/logo-pion.png";
 import About from "./pages/About";
+import "./styles/custom.css";
+import "./styles/media_queries.css";
+
 
 function App() {
   return (

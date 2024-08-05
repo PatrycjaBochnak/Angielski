@@ -64,7 +64,7 @@
   opacity: 0;
   transition: opacity 0.3s ease;
 }
-.rectangle:hover .title-text { 
+.rectangle:hover .title-text {
   opacity: 0;
 }
 .rectangle:hover .hover-text {
@@ -182,6 +182,8 @@
   transform: translateY(0);
 }
 .nav-custom-btn {
+  display: flex;
+  justify-content: space-between;
   text-shadow: 3px 1px lightgray;
 }
 .nav-custom-btn:hover {

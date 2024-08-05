@@ -13,7 +13,7 @@ const About = () => {
     >
       <Container>
         <Row className="align-items-center">
-          <Col md={6} className="d-flex justify-content-center">
+          <Col xs={12} md={6} className="d-flex justify-content-center">
             <img
               src={image1}
               alt="image1"
@@ -21,7 +21,7 @@ const About = () => {
               style={{ width: "100%", maxWidth: "450px", borderRadius: "10px" }}
             />
           </Col>
-          <Col md={6}>
+          <Col xs={12} md={6}>
             <h1
               className="heading-custom"
               style={{textAlign: "right"}}
