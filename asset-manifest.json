@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4561b88b.css",
-    "main.js": "/static/js/main.f08be389.js",
+    "main.css": "/static/css/main.a4bf9fb9.css",
+    "main.js": "/static/js/main.b23470fa.js",
     "static/media/image1.jpeg": "/static/media/image1.4cbf5d17af9d43cf1205.jpeg",
     "static/media/image3.jpeg": "/static/media/image3.932055289a18e466cb6b.jpeg",
     "static/media/image0.jpeg": "/static/media/image0.902255b11ff08571f0ae.jpeg",
@@ -13,11 +13,11 @@
     "static/media/logo-pion.png": "/static/media/logo-pion.6b71ba8aed3801ffeb61.png",
     "static/media/logo-poziom.png": "/static/media/logo-poziom.6b71ba8aed3801ffeb61.png",
     "index.html": "/index.html",
-    "main.4561b88b.css.map": "/static/css/main.4561b88b.css.map",
-    "main.f08be389.js.map": "/static/js/main.f08be389.js.map"
+    "main.a4bf9fb9.css.map": "/static/css/main.a4bf9fb9.css.map",
+    "main.b23470fa.js.map": "/static/js/main.b23470fa.js.map"
   },
   "entrypoints": [
-    "static/css/main.4561b88b.css",
-    "static/js/main.f08be389.js"
+    "static/css/main.a4bf9fb9.css",
+    "static/js/main.b23470fa.js"
   ]
 }
