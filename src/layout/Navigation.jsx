@@ -15,9 +15,11 @@ const Navigation = () => {
   return (
     <>
       {/* Navbar for large screens */}
-      <Navbar className="navbar-custom w-100 p-4">
+      <Navbar 
+        className="navbar-custom w-100 p-4 d-none d-md-flex" 
+        style={{ position: "fixed", top: 0, left: 0, right: 0, zIndex: 1000}}
+      >
         <Container>
-          <div className="hidden md:flex d-flex">
           <Navbar.Brand>
             <img src={logo2} alt="Logo" className="navbar-logo" />
           </Navbar.Brand>
@@ -46,12 +48,14 @@ const Navigation = () => {
               <NavButtons source="contact" linkName="Kontakt" />
             </Nav>
           </Navbar.Collapse>
-          </div>
         </Container>
       </Navbar>
 
-    {/* Navbar for mobile screens
-    <Navbar   style={{ backgroundColor: "beige", color: "#0a192f" }}>
+      {/* Navbar for mobile screens */}
+      <Navbar 
+        className="d-md-none w-100 p-4" 
+        style={{ color: "#0a192f" }}
+      >
         <Container>
           <Navbar.Brand>
             <img src={logo2} alt="Logo" className="navbar-logo" />
@@ -69,12 +73,13 @@ const Navigation = () => {
             </Nav>
           </Navbar.Collapse>
         </Container>
-      </Navbar> */}
+      </Navbar>
+
       {/* Social media icons for large screens */}
       <Container className="mt-5 d-none d-md-block">
         <div
           className="d-flex flex-column position-fixed"
-          style={{ left: 0, top: "50%", transform: "translateY(-50%)" }}
+          style={{ left: 0, top: "50%", transform: "translateY(-50%)", zIndex: 1000 }}
         >
           <ul className="list-unstyled">
             <li>

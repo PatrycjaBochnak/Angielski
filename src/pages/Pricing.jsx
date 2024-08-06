@@ -26,7 +26,7 @@ const Pricing = () => {
       <Container className="d-flex justify-content-center">
         <Row className="justify-content-center">
           <Col md={12} lg={10}>
-            <Table striped bordered hover className="table">
+            <Table striped bordered hover className="table" style={{ whiteSpace: "normal", overflow: "hidden" }}>
               <thead>
                 <tr>
                   <th>Oferta</th>
@@ -51,16 +51,14 @@ const Pricing = () => {
                 </tr>
                 <tr>
                   <td data-label="Oferta">Kursy dla młodziezy i dorosłych</td>
-                  <td data-label="Dla kogo"
-                   style={{ whiteSpace: "normal", overflow: "hidden" }}>
+                  <td data-label="Dla kogo">
                     Angielski ogólny: 2x60min/tyg (poziomy od A0 do C1)
                   </td>
                   <td data-label="Cena">1350 zł</td>
                 </tr>
                 <tr>
                   <td data-label="Oferta">Kursy specjalistyczne</td>
-                  <td data-label="Dla kogo"
-                   style={{ whiteSpace: "normal", overflow: "hidden" }}>
+                  <td data-label="Dla kogo">
                     Przygotowanie do egzaminu ósmoklasisty: 2x60min/tyg
                     (poziom B1) <br />
                     Przygotowanie do matury podstawowej: 2x90min/tyg
@@ -77,8 +75,7 @@ const Pricing = () => {
                 </tr>
                 <tr>
                   <td data-label="Oferta">Zajęcia indywidualne</td>
-                  <td data-label="Dla kogo"
-                   style={{ whiteSpace: "normal", overflow: "hidden" }}>
+                  <td data-label="Dla kogo">
                     Angielski ogólny: indywidualna liczba zajęć (poziomy od A0
                     do C1)
                   </td>
